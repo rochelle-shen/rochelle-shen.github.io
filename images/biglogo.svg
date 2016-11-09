@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="216px" height="172px" viewBox="0 0 216 172" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>biglogo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="bigger-logo-pic" sketch:type="MSArtboardGroup">
+            <g id="biglogo" sketch:type="MSLayerGroup" transform="translate(109.042964, 85.207698) rotate(32.000000) translate(-109.042964, -85.207698) translate(-42.457036, -17.292302)">
+                <path d="M148.33125,42.092631 L237.137446,100.717739 L82.5459355,118.647816 L148.33125,42.092631 L148.33125,42.092631 Z" id="Triangle-15" fill-opacity="0.840000033" fill="#96DDD2" sketch:type="MSShapeGroup"></path>
+                <path d="M216.088941,145.645568 L79.7751946,70.1137731 L144.426679,23.7332618 L216.088941,145.645568 L216.088941,145.645568 Z" id="Triangle-16" fill-opacity="0.50999999" fill="#54DEC8" sketch:type="MSShapeGroup"></path>
+                <polygon id="Triangle-13" fill-opacity="0.289999992" fill="#49AC9D" sketch:type="MSShapeGroup" points="151.83813 37.8920345 225.302021 140.200528 78.3742383 140.200528 "></polygon>
+                <path d="M0.151532486,144.640391 L89.2011315,0.408909049 L158.748988,29.6533693 L69.6993894,173.884851 L0.151532486,144.640391 L0.151532486,144.640391 Z" id="Rectangle-11" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <path d="M213.669433,0.365987425 L302.719032,144.597469 L233.171175,173.841929 L144.121576,29.6104477 L213.669433,0.365987425 L213.669433,0.365987425 Z" id="Rectangle-11" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-11" fill="#FFFFFF" sketch:type="MSShapeGroup" x="55.4167723" y="140.200528" width="196.148596" height="64.4164587"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
