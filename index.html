@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<meta charset ="UTF-8">
+<title>Rochelle Shen</title>
+<link rel="stylesheet" type="text/css" href="css/design.css">
+<link rel="stylesheet" href="css/font.css" type="text/css" charset="utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+
+<script src="jquery-3.0.0.min.js"></script>
+<script src="typed.js"></script>
+<script>
+    $(function(){
+        $("#auto-type").typed({
+            strings: [" ^1500 I love learning about new <strong>technology</strong>. ^1500", "I love <strong>giving back</strong> to my community. ^1500", "I'm passionate about <strong>design</strong>. ^1500", "I can't get enough of <strong>sushi</strong> ^800 and <strong>green tea</strong>. ^1500"],
+            typeSpeed: 40,
+            contentType: 'html',
+            loop: true
+        });
+    });
+</script>
+</head>
+
+
+<body>
+	<!-- Heading area -->
+	<div class = "header">
+		<p>Hi, I'm</p>
+		<h1>Rochelle Shen</h1>
+	</div>
+
+	<!-- Terminal image with typed.js-->
+	<div class = "terminal">
+		<img src = "images/white.png">
+		<div class = "top-text">
+			<p>> I am a second year student at <strong>UC Berkeley</strong>.</p>
+			<p id ="second">> <strong>Python</strong>, <strong>Java</strong>, <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Javascript</strong> are languages I enjoy using. </p>
+			<p id = "three">> <strong>Photoshop</strong>, <strong>inDesign</strong>, and <strong>Sketch</strong> are programs I use to express my creativity. </p>
+			<p id = "four"> > </p>
+			<div id ="move"><div id = "auto-type"></div></div>
+		</div>
+	</div>
+
+	<!-- Side bookmark with social media icons -->
+	<div class = "final-icons">
+		<div class ="icons">
+			<a href = "https://www.facebook.com/itsRochelle"><img id = "fb" src = "images/facebook.svg"> </a>
+			<a href = "https://www.instagram.com/rochellelel/"> <img id ="insta" src = "images/insta.svg"></a>
+			<a href = "https://www.linkedin.com/in/rochelleshen"><img id ="in" src = "images/linkedin.svg"></a>
+			<a href = "mailto:rochelleshen@berkeley.edu"><img id = "mail" src = "images/mail.svg"></a>
+			<a href = "https://www.github.com/rochelle-shen"><img id ="hub" src = "images/github.svg"></a>
+		</div>
+		<div class = "bookmark">
+			<img id = "back" src = "images/new-bookmark.svg">
+		</div>
+	</div>
+
+	<!-- Website triangular logo-->
+	<img id = "logo" src = "images/biglogo.png">
+		
+
+</body>
+</html>
