@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<meta charset ="UTF-8">
+<title>Rochelle Shen</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/detailpgs.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" href="css/hover.css" media="all">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="css/font.css" type="text/css" charset="utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    
+    
+<script>
+    
+    $(document).ready(function() {  
+    $("p").hover(function(){
+        $(this).css("background-color", "yellow");
+        }, function(){
+        $(this).css("background-color", "pink");
+    });
+  function animateDivers() {
+    $('#divers').animate({'margin-top':'90px'},6000).animate({'margin-top':'40px'},6000, animateDivers); 
+  }
+
+  animateDivers();
+}); 
+</script>
+</head>
+    
+
+
+
+<body>
+    <div id = "logo" style = "position: fixed">
+        <a href = "index.html#sec2"><img src = "images/logotilt.png"></a>
+    </div>
+    
+    <p id = "name"><strong>Mobile Developers of Berkeley: Socials</strong></p>
+    <div class ="empty"></div>
+    
+    <div id = "overview">
+        <p id = "boxedsub"><span id = "pretitle">OVERVIEW</span></p>
+    </div>
+    
+    <div id = "partext">
+        <div id = "centerleft">
+            <p>As a member of the Mobile Developers of Berkeley organization on campus, we frequently enjoy planning social events to allow all the members to bond and spend time together outside of constant coding. This is where the mobile application, Mobile Developers of Berkeley: Socials, comes in handy. Users are able to create events, see the amount of users who RSVP’ed, and join events in a beautifully designed platform.</p>
+        </div>
+    </div>
+    
+    <div style = "text-align: center" id = "dimg">
+        <img src = "images/mdbsocials/homep.png">
+        <img src = "images/mdbsocials/signupp.png">
+    </div>
+    
+    <div id = "overview">
+        <p id = "boxedsub"><span id = "pretitle">ROLE</span></p>
+    </div>
+    
+    <div id = "partext">
+        <div id = "centerleft">
+            <p>For this project, I was both the main designer and coder along with one other person.</p>
+        </div>
+    </div>
+    
+    <div id = "overview">
+        <p id = "boxedsub"><span id = "pretitle">PROCESS</span></p>
+    </div>
+    
+    <div id = "partext">
+        <div id = "centerleft">
+            <p>Now what prevents members from simply creating Facebook events? The goal was to make this application as simpe as possible with one focus: viewing and creating social events. With other websites such as Facebook events, there is so much other functionality on the site that makes it more difficult to find and sort all the events as well as taking more clicks to see who / how many people are attending. 
+</p>
+        </div>
+    </div>
+    
+    <div style = "text-align: center" id = "dimg">
+        <img style = "width: 25%" src = "images/mdbsocials/detailp.png">
+    </div>
+    
+    <div id = "overview">
+        <p id = "boxedsub"><span id = "pretitle">DESIGN + CODE</span></p>
+    </div>
+    
+    <div id = "partext">
+        <div id = "centerleft">
+            <p>This was designed on Sketch and coded on Xcode. <br> <br>Design: As shown in the first image with the pair of phones together, the color scheme was initially established as followed through the app as shown above. The sign up UI was made simple with all the registration on one page so users can see immediately what information was needed.  The home section shown above is what seals the idea of simplicity together. The title of the event and the amount of people who RSVP’ed are clearly and largely displayed. Users are more willing to attend an event with more members attending and this allows them to easily see that information. The full screen width image background also sets the colorful appearance of the app. <br><br>Code: This application was design as an iOS mobile app. Firebase was used to store user information as well as background photos. </p>
+        </div>
+    </div>
+    
+    <div id = "b">
+        <button><a id = "bluelink" href = "checkt.html">NEXT UP: Checkt iOS app</a></button>
+    </div>
+
+    <div>
+        <p style = "font-family: 'AvenirNext-Medium'; text-align: center">© 2016 Rochelle Shen</p>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="16px" viewBox="0 0 27 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>downarrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="about" sketch:type="MSArtboardGroup" transform="translate(-326.000000, -261.000000)" fill="#9FD9F5">
+            <g id="downarrow" sketch:type="MSLayerGroup" transform="translate(326.000000, 261.000000)">
+                <g id="Up" sketch:type="MSShapeGroup">
+                    <g id="Group">
+                        <g id="Shape">
+                            <path d="M13.5,5.58612293 L3.95015175,15.2067108 C3.07314563,16.0902133 1.6507575,16.0879636 0.7720785,15.2027759 C-0.11272725,14.311416 -0.108351,12.8841753 0.768171375,12.0011602 L11.9129164,0.773861533 C12.3507697,0.3327648 12.9245647,0.112450467 13.4987692,0.112568333 C14.0771914,0.111151667 14.6494676,0.333003933 15.0870836,0.773861533 L26.2318286,12.0011602 C27.1088347,12.8846627 27.1066016,14.317587 26.2279215,15.2027759 C25.3431169,16.0941346 23.9263706,16.0897259 23.0498482,15.2067108 L13.5,5.58612293 L13.5,5.58612293 L13.5,5.58612293 Z" transform="translate(13.498943, 7.991348) scale(1, -1) translate(-13.498943, -7.991348) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
