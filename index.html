@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<meta charset ="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rochelle Shen</title>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel = "stylesheet" type = "text/css" href = "css/detailpgs.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" href="css/hover.css" media="all">
+<link rel="stylesheet" href="css/font.css" type="text/css" charset="utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    
+    
+<script src="js/jquery-3.0.0.min.js"></script>
+<script src="js/typed.js"></script>
+<script src = "js/jquery.combinedScroll.js"></script>
+<script>
+    jQuery(document).ready(function($) {
+ 
+        // Hook up the current state to the nav bar
+        $('.overlay-content').onePageNav();
+        $('div.fix').fadeIn(1000);
+  
+    });
+    $(function(){
+        $("#auto-type").typed({
+            strings: [" ^1500 and I'm a <strong>second year</strong> student at <strong>UC Berkeley</strong>. ^1500", "and I have a passion for <strong>design</strong> and <strong>tech</strong>. ^1500", "and I can't get enough of <strong>sushi</strong> ^800 and <strong>green tea</strong>. ^1500"],
+            typeSpeed: 40,
+            contentType: 'html',
+            loop: true
+        });
+    });
+    
+    function openNav() {
+    document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+    document.getElementById("myNav").style.height = "0%";
+    }
+</script>
+</head>
+
+
+<body>
+    <div id = "logo" style = "position: fixed">
+        <a href = "index.html"><img src = "images/logotilt.png"></a>
+    </div>
+    
+    <div id = "menu">
+        <img style = "cursor: pointer" onclick = "openNav()" src = "images/sidemenu.svg">
+    </div>
+    
+    <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+        <ul style = "list-style: none">
+            <li style = "text-align: center"><a href = "#home" onclick="closeNav()">Home</a></li>
+            <li style = "text-align: center"><a href="#sec1" onclick="closeNav()">Skills</a></li>
+            <li style = "text-align: center"><a href="#sec2" onclick="closeNav()">Design</a></li>
+            <li style = "text-align: center"><a href="#sec3" onclick="closeNav()">Code</a></li>
+            <li style = "text-align: center"><a href="#sec4" onclick="closeNav()">About + Contact</a></li>
+        </ul>
+    </div>
+    </div>
+    
+    <div id = "home">
+        <p id = "name"><strong>Hi, I'm Rochelle Shen,</strong></p>
+        <div id = "auto"><div id = "auto-type"></div></div>
+    </div>
+    
+    <div id = "arrow">
+        <img src = "images/downarrow.svg">
+    </div>
+    
+    <div class = "clipstyle">
+        <p id = "sec1" class = "header"><strong>— Skills —</strong></p>
+        <div id = "threeB">
+            <div id = "clip1">
+                <img src = "images/pixel/hand.svg">
+                <p><strong>Interactive Design</strong></p>
+                <ul style="list-style-type:circle">
+                    <li>Wireframing</li>
+                    <ul style="list-style-type:none; padding:0">
+                        <li>— Balsamiq Mockups 3</li>
+                    </ul>
+                    <li>Prototyping</li>
+                    <ul style="list-style-type:none; padding:0">
+                        <li>— inVision</li>
+                    </ul>
+                    <li>High-Fidelity Design</li>
+                    <li>User Research</li>
+                </ul>
+            </div>
+            <div id = "clip2">
+                <img src = "images/pixel/pencil.svg">
+                <p><strong>Visual Design</strong></p>
+                <ul style="list-style-type:circle">
+                    <li>Adobe Creative Cloud</li>
+                    <ul style="list-style-type:none; padding:0">
+                        <li>— Photoshop</li>
+                        <li>— Illustrator</li>
+                        <li>— inDesign</li>
+                    </ul>
+                    <li>Sketch</li>
+                </ul>
+            </div>
+            <div id = "clip3">
+                <img src = "images/pixel/comp.svg">
+                <p><strong>Programming Languages</strong></p>
+                <ul style="list-style-type:circle">
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>HTML/CSS</li>
+                    <li>Javascript</li>
+                </ul>
+                <p><strong>Technical Experience</strong></p>
+                <ul style="list-style-type:circle">
+                    <li>Git</li>
+                    <li>SQL</li>
+                    <li>Xcode</li>
+                    <li>IntelliJ</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class = squareview>
+        <p id = "sec2" class = "header"><strong>— Design —</strong></p>
+        <p style = "padding-bottom: 25px" id = "extra">Check out a selection of some of my newest works.</p>
+        <div class = "rows">
+            <div id = "s1">
+                <img src = "images/gen/mdbsocials.png">
+                <a href = "mdbsocials.html"><figcaption><p><strong>iOS app: Socials</strong></p></figcaption></a>
+            </div>
+            <div id = "s2">
+                <img src = "images/gen/checkt.png">
+                <a href = "checkt.html"><figcaption><p><strong>iOS app: Checkt</strong></p></figcaption></a>
+            </div>
+            <div id = "s3">
+                <img src = "images/gen/rohp.png">
+                <a href = "rohp.html"><figcaption><p><strong>ROHP website</strong></p></figcaption></a>
+            </div>
+
+            <div id = "s4">
+                <img src = "images/gen/pokedex.png">
+                <a href = "pokedex.html"><figcaption><p><strong>iOS app: Pokédex</strong></p></figcaption></a>
+            </div>
+            <div id = "s5">
+                <img src = "images/gen/pweb.png">
+                <a href = "personalwebsite.html"><figcaption><p><strong>personal web design</strong></p></figcaption></a>
+            </div>
+            <div id = "s6">
+                <img src = "images/gen/design.jpg">
+                <a href = "illustrations.html"><figcaption><p><strong>illustrations</strong></p></figcaption></a>
+            </div>
+        </div>
+    </div>
+    
+    <div class = "codeview">
+        <p id = "sec3" class = "header"><strong>— Programming Projects —</strong></p>
+        <p id = "extra">Here are some of my more recent projects.</p>
+        <p id = "extra">See <a id = "white" href = "https://github.com/rochelle-shen">Github <img id = "git" src = "images/icons/githubwhite.svg"> </a> for other work.</p>
+        <p id = "extra"><a id = "white" href = "mailto:rochelleshen@berkeley.edu">Contact me</a> to view more projects and the work I’ve done below, as</p>
+        <p style = "padding-bottom: 35px" id = "extra">project files are not public due to non-disclosure agreements.</p>
+        
+        <div id = "roundedwrap">
+            <div id = "allC">
+                <div id = "c1">
+                    <div style = "padding-bottom: 8px" id = "overview">
+                        <p style = "padding-top: 20px" id = "boxedsub"><span id = "pre">ATAXX <img src = "images/pixel/game.png"></span></p>
+                    </div>
+                    <ul style="list-style-type:circle">
+                        <li>Developed an abstract strategy game played on a 7x7 grid using Java</li>
+                        <li>Added feature for players to play against computer using AI minimax algorithm</li>
+                    </ul>
+                </div>
+                <div id = "c2">
+                    <div id = "overview" style = "padding-bottom: 8px">
+                        <p id = "boxedsub"><span id = "pre">TRIP MAKER <img src = "images/pixel/map.png"> </span></p>
+                    </div>
+                    <ul style="list-style-type:circle">
+                        <li>Created a client that outputs the shortest path from one destination to another</li>
+                        <li>Implemented graph package interface and used A* algorithm for shortest path</li>
+                    </ul>
+                </div>
+                <div id = "c3">
+                    <div style = "padding-bottom: 8px" id = "overview">
+                        <p id = "boxedsub"><span id = "pre">CHECKT <img src = "images/pixel/check.png"></span></p>
+                    </div>
+                    <ul style="list-style-type:circle">
+                        <li>iOS mobile application allowing users to automatically check in to events using geo location services</li>
+                    </ul>
+                </div>
+
+                <p style = "font-family: 'AvenirNext-Medium'; text-align: center; padding-bottom: 20px" id = "c4">The <a id = "blue" href = "rohp.html">ROHP website</a>, <a id = "blue" href = "checkt.html">Checkt</a>, and <a id = "blue" href = "mdbsocials.html">MDB Socials</a> application are also programming projects that I have also designed, featured in the <a id = "blue" href = "#sec2">Design section</a>.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class = "aboutme">
+        <p id = "sec4" style = "padding: 2%" class = "header"><strong>— About —</strong></p>
+        <div id = "center">
+        <div id = "a1">
+            <img style = "padding-bottom: 10px" src = "images/IMG_86851.png">
+        </div>
+        <div id = "a2">
+            <p style = "font-size: 20px; padding: 1%"><strong>Problem Solver. Curious. Motivated.</strong></p>
+            <p style = "padding-bottom: 20px">As a second year student at <a id = "blue" href = "http://www.berkeley.edu">UC Berkeley</a>, I am studying Cognitive Science and Computer Science. I love to express my creativity through design and problem solve through code. <br><br>
+
+            I enjoy vlogging and video editing, picking up new skills, and trying all sorts of food.  Pixel graphics and neon color schemes have been my newest favorites. <br><br>
+
+                <a id = "blue" href = "mailto:rochelleshen@berkeley.edu">E-mail me</a> to request for my résumé. <br><br>
+
+            Thanks for stopping by!</p>
+            <div id = "threeicons">
+                <a href = "mailto:rochelleshen@berkeley.edu"><img id = "t1" src = "images/icons/mail.svg"></a>
+                <a href = "https://github.com/rochelle-shen"><img id = "t2" src = "images/icons/github.svg"></a>
+                <a href = "https://www.linkedin.com/in/rochelleshen"><img id = "t3" src = "images/icons/linkedin.svg"></a>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <div>
+        <p style = "font-family: 'AvenirNext-Medium'; text-align: center">© 2016 Rochelle Shen</p>
+    </div>
+    
+</body>
+</html>
