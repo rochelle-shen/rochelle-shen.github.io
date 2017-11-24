@@ -1,0 +1,191 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Elements - Forty by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+                        <a href="index.html" class="logo"><img style = "width: 13%; margin-top: 3px" src = "images/logotilt.png" alt = ""></a>
+					</header>
+
+				<!-- Menu -->
+<!--
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="landing.html">Landing</a></li>
+							<li><a href="generic.html">Generic</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+						<ul class="actions vertical">
+							<li><a href="#" class="button special fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+					</nav>
+-->
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+                                        <img src="images/aux/auxlogo.png" style = "width: 15%; float: left; margin-right: 20px" alt=""/>
+										<h1>Aux</h1>
+									</header>
+
+									<!-- Content -->
+<!--										<h2 id="content">Sample Content</h2>-->
+                                        <p>This is a personal project I pursued with my team of 4 in the organization <a href="https://www.mobiledevsberkeley.org/">Mobile Developers of Berkeley.</a> This mobile application, <a href="https://itunes.apple.com/us/app/aux-easily-create-live-collaborative-playlists/id1181100444?mt=8">Aux</a>, is a cross platform mobile application available on both the Apple and Android market. The purpose of Aux is to make live collaborative playlists simple and stress-free. Users are able to host or join playlists and add songs to a collaborative playlist. Users can add songs without needing any account. So say good bye to fighting over one phone to add all the songs!</p>
+                                        <hr />
+                                        my roles included: <b>iOS mobile development, iOS mobile UI design, UX research, usability testing</b><br />
+                                        <hr />
+                                        
+                                        <h3>Goals</h3>
+                                        It was time to give Aux a redesign. When initally starting Aux, the team was more focused on getting the functionality pushed out without worrying too much about the UI. Now that the app has its basic features, I wanted to revamp up the design by <b>figuring out the app's main themes to give it a new look.</b>
+                                        <hr />
+                                    
+                                        <h3>Before</h3>
+                                        <p>These are the main screens of Aux before any redesign:</p>
+                                    
+                                        <div style = "display: flex; justify-content: center; align-items: center"><img src="images/aux/bannerone.png" style = "width: 100%" alt=""/></div>
+                                        <br />
+                                        
+                                        <ul>
+                                            <li>the playlist names were very difficult to see on the home screen due to the white text clashing with the background image blur</li>
+                                            <li>items on the 2nd page were scattered and unorganized; users get attracted to arbitray places on the page due to bigger icons on the bottom of the screen (e.g. the Spotify icon)</li>
+                                            <li>the faint color of the gray on the dark background again makes it difficult to read; there is color inconsistency with the 2nd screen</li>
+                                            <li>color inconsistency with the purple floating action button; font and icon inconsistency as well</li>
+                                        </ul>
+                                    
+                                        <hr />
+
+                                        <h3>Research</h3>
+                                        <p>To get a better understanding on how people use collaborative playlists, I interviewed people who were interested in music and listening to music collaboratively with friends. I conducted interviews with a set of questions that dug deeper to allow me to understand their behavior when using collaborative playlists such as: </p>
+                                        <ol>
+                                            <li>When do you listen to music?</li>
+                                            <li>In what situations do you prefer collaborative playlists over a single user playlist?</li>
+                                            <li>Walk me through a process of creating a collaborative playlist on any music platform.</li>
+                                        </ol>
+                                        <p>I wanted to promote a story sharing approach and allow users to talk through their daily music listening habits and how collaborative playlists may tie into that story. I used a focus -> to deep focus approach by starting out broad and then narrowing in the questions to become more product specific.</p>
+                                        <h4><u>Interview Key Findings</u></h4>
+                                        <ul>
+                                            <li>Many felt that <b>creating collaborative playlists was difficult</b> and tedious and many couldn't figure it out without Googling instructions on Spotify</li>
+                                            <li>Majority of people said that they <b>did not have a preferred time</b> to listen to music</li>
+                                            <li>They felt that they <b>would create collaborative playlists with their friend groups or in a event</b> based setting</li>
+                                            <li><b>60% of those I interviewed did not pay</b> for premium music services</li>
+                                            <li>Users felt that the <b>playlists are an important aspect</b> of music because it allows for <b>personalization of music</b> taste and keeps their music more organized</li>
+                                            <li>Many felt that <b>music album covers allow users to recognize artists quickly</b> and add vividness to a music application which they enjoyed</li>
+                                        </ul>
+                                        <p>I spoke with more people casually to get a better idea of what types of music they listened to, to see if a certain genre they listen to affects their approach to how they use music playlists. Did certain genres of music have more playlist collaboration than others? There were a few more pending questions that I thought about to assist with my potential design solutions.</p>
+                                    
+                                        <hr />
+                                    
+                                        <h3>Solution</h3>
+                                        <p>I took this data that I received to draw some insights about the key themes that stood out which were important on figuring out what themes to showcase in the app. I gathered more inspiration by looking at other music applications on the market such as Spotify, Soundcloud, Pandora, iHeartRadio, Musi, 8Tracks, and more. From this, I knew that I wanted to keep the organized feel of a TableView display because it works well for music apps and makes it a lot more intuitive for users to follow along. I took into account the love that users had for album art as well having some kind of personalized choices. </p>
+                                        <p>The themes that were fitting included: <b>compelling, simplistic, and passionate.</b> Compelling emerged from the fact that Aux aimed to be enticing for users off the bat because a selling point is that users do not need to create any type of account on Aux (or anywhere) to add songs to a playlist. This theme centered along that idea hoping users would want to get started in the app right away. Simplistic stemmed from see that users had a complicated time creating collaborative playlists on other music platforms. On Spotify, it took users more than 14 clicks or touches, <i>along</i> with the help of Google to figure out the exact steps for creating a collaborative playlist. Aux strives to be easy and straightforward to get the job done. Lastly, the theme passionate fit really well as users of music applications thoroughly enjoy the artists. Therefore, Aux should showcase the work of the artist better and really center the fact that music is the center of attention.</p>
+                                        
+                                        <p>Therefore, after wireframes, mockups, and sketches of potential user flows, here is my first iteration of the prototype:</p>
+                                    
+                                        <div style = "display: flex; justify-content: center; align-items: center"><img src="images/aux/bannerfirst.png" style = "width: 100%" alt=""/></div>
+                                        <br />
+                                        
+                                        <hr />
+                                    
+                                        <h3>Usability Testing</h3>
+                                        <p>I presented my first prototype to users to see how they felt about the redesign and asked them questions to see how they felt. One interesting question I asked was, <b>"Name the first 3 words that come to mind when you see these screens."</b> From this, I got a better feel at how well the themes were portrayed through my designs and improve on the changes. Overall, users all had a positive view of the prototype and thought there were good significant changes to the app. They really enjoyed the use of emphasizing the album covers in the main playlist as well and not just the main song because that helped them recognize which song was going to play next easily. Some users did mention on the color scheme thinking that it was too dark while others genuinely enjoyed the darker looked and thought it fit with the context of that app, so this was another piece of feedback I considered.</p>
+                                        <p>I was able to note the severity of each problem during the testing by rating it based on a combination of several factors including: <b>how many times this issue has occurred with other users, how much it impeded users from accomplishing the task, and the impact on the goal of the app.</b> These steps help me understand the feedback given to see what design fixes I should look into next.</p>
+                                        <hr />
+                                    
+                                        <h3>Final Product</h3>
+                                        <p>After some more design iterations and talks with some other end-users, I was able to flush out a fuller final product (that could of course always be iterated upon). The <b>font interface</b> is now clearer and fuller - making it more readable for users. I wanted to refocus on the simplistic theme, so having the 'Create Playlist' button centered drew attention with its gradient and location placement. A <b>single fixed floating action</b> '+' button to indicate 'Add Songs' allows users to easily which highlights the idea that this is a frequently used action. This also hints to users that this is the next step you should take to continue to stay engaged in our app. I wanted to change the sharper boxed edges for the buttons to be <b>rounded corner buttons</b> because this makes it easier on the eyes. Rounded corners focus more toward the center of the rectangle which point toward the text of the button. Lastly, I wanted to add a <b>personalized</b> touch since some users did not like the dark theme, so I presented the option to have a both light/dark theme that flow very well together.</p>
+                                    
+                                        <iframe style = "width: 100%" src="https://marvelapp.com/2e96f8d?emb=1" width="452" height="551" allowTransparency="true" frameborder="0"></iframe>
+                                        
+                                        <p>Same designs in the white theme:</p>
+                                    
+                                        <div class = "row">
+                                            <div class="3u 12u$(small)" >
+                                                <img src="images/aux/light1.png" style = "width: 95%" alt=""/>
+                                            </div>
+                                            <div class="3u 12u$(small)">
+                                                <img src="images/aux/light2.png" style = "width: 95%" alt=""/>
+                                            </div>
+                                            <div class="3u 12u$(small)">
+                                                <img src="images/aux/light3.png" style = "width: 95%" alt=""/>
+                                            </div>
+                                            <div class="3u 12u$(small)">
+                                                <img src="images/aux/light4.png" style = "width: 95%" alt=""/>
+                                            </div>
+                                        </div>
+                                        <hr />
+                                    
+                                        <h3>Final Thoughts & Challenges</h3>
+                                        <ul>
+                                            <li>A difficult challenge was translating the core themes of the app to the actual design implementation. I had to do more extensive research on how to relay these themes properly.
+                                            </li>
+                                            <li>I also was doing the development side of this application as well, so it was a lot easier for me to realize which UI designs would be feasible to develop with our time constraint while sticking to the design goals.</li>
+                                            <li>I was able to think about potential new ideas for the app as well while designing that fit the core themes I came up with. One such idea was having the Nearby playlists which allow users to find playlists nearby based on their location.</li>
+                                            <li>I learned a lot more about how certain kinds of UI make users feel a certain way.</li>
+                                            <li>It is important to have great interest and passion for the product, and that ultimately helps fuel the design making it even greater!</li>
+                                        </ul>
+
+									<hr class="major" />
+                                    
+                                    <ul style = "text-align: center" class="pagination">
+                                        <li><a href= "ongo.html" class="button small">Prev</a></li>
+                                        <li><a href="ongo.html" class="page">1</a></li>
+                                        <li><a href="#" class="page active">2</a></li>
+                                        <li><a href="checkt.html" class="page">3</a></li>
+<!--                                        <li><span>&hellip;</span></li>-->
+                                        <li><a href="calseat.html" class="page">4</a></li>
+                                        <li><a href="illustrations.html" class="page">5</a></li>
+                                        <li><a href="checkt.html" class="button small">Next</a></li>
+                                    </ul>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="mailto:rochelleshen@berkeley.edu" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+								<li><a href="https://github.com/rochelle-shen" class="icon alt fa-github"><span class="label">Github</span></a></li>
+								<li><a href="https://www.linkedin.com/in/rochelleshen/" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://twitter.com/rochelle_s8" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>			
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
