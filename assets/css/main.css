@@ -1861,11 +1861,11 @@
 			}
 
 		header.major > p {
-			font-size: 0.7em;
+			font-size: 0.75em;
 			font-weight: 600;
-			letter-spacing: 0.25em;
+			letter-spacing: 0.2em;
 			margin-bottom: 0;
-			text-transform: uppercase;
+/*			text-transform: uppercase;*/
 		}
 
 		body.is-ie header.major > :first-child:after {
@@ -3510,7 +3510,7 @@
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
-				margin: 0 0 2em 0;
+				margin: 0 0 0 0;
 			}
 
 				#banner > .inner .content > * {
@@ -3523,10 +3523,10 @@
 				}
 
 				#banner > .inner .content p {
-					font-size: 14px;
+					font-size: 16px;
 					font-weight: 600;
 					letter-spacing: 0.25em;
-					text-transform: uppercase;
+/*					text-transform: uppercase;*/
 				}
 
 		#banner.major {
