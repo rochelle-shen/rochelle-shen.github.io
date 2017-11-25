@@ -17,6 +17,18 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
+    
+    #back-top {
+        position: fixed;
+        bottom: 30px;
+        width: 100%;
+/*        margin-right: 300px;*/
+/*        margin-left: 1100px;*/
+    }
+
+    #scroll:hover {
+        
+    }
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
