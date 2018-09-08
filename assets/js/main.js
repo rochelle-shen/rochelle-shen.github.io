@@ -5,23 +5,23 @@ $(document).ready(function(){
 	$("#back-top").hide();
 	
 	// fade in #back-top
-	$(function () {
-		$(window).scroll(function () {
-			if ($(this).scrollTop() > 150) {
-				$('#back-top').fadeIn();
-			} else {
-				$('#back-top').fadeOut();
-			}
-		});
-
-		// scroll body to 0px on click
-		$('#back-top a').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 800);
-			return false;
-		});
-	});
+//	$(function () {
+//		$(window).scroll(function () {
+//			if ($(this).scrollTop() > 150) {
+//				$('#back-top').fadeIn();
+//			} else {
+//				$('#back-top').fadeOut();
+//			}
+//		});
+//
+//		// scroll body to 0px on click
+//		$('#back-top a').click(function () {
+//			$('body,html').animate({
+//				scrollTop: 0
+//			}, 800);
+//			return false;
+//		});
+//	});
 
 });
 (function($) {
@@ -119,20 +119,20 @@ $(document).ready(function(){
 			$banner = $('#banner');
 
 		// Disable animations/transitions until the page has loaded.
-			$body.addClass('is-loading');
-
-			$window.on('load pageshow', function() {
-				window.setTimeout(function() {
-					$body.removeClass('is-loading');
-				}, 100);
-			});
+//			$body.addClass('is-loading');
+//
+//			$window.on('load pageshow', function() {
+//				window.setTimeout(function() {
+//					$body.removeClass('is-loading');
+//				}, 100);
+//			});
 
 		// Clear transitioning state on unload/hide.
-			$window.on('unload pagehide', function() {
-				window.setTimeout(function() {
-					$('.is-transitioning').removeClass('is-transitioning');
-				}, 250);
-			});
+//			$window.on('unload pagehide', function() {
+//				window.setTimeout(function() {
+//					$('.is-transitioning').removeClass('is-transitioning');
+//				}, 250);
+//			});
 
 		// Fix: Enable IE-only tweaks.
 			if (skel.vars.browser == 'ie' || skel.vars.browser == 'edge')

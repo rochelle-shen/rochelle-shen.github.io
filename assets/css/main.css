@@ -30,6 +30,9 @@
         
     }
 
+    .content {
+    }
+
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -2984,7 +2987,8 @@
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+            /*#2e3450*/
+			background-color: floralwhite;
 		}
 
 			.spotlights > section > .image {
@@ -3046,7 +3050,8 @@
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+                /*#333856*/
+				background-color: floralwhite;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3426,7 +3431,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		/*background-image: url("../../images/banner.jpg");*/
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3524,8 +3529,8 @@
 
 				#banner > .inner .content p {
 					font-size: 16px;
-					font-weight: 600;
-					letter-spacing: 0.25em;
+					font-weight: 500;
+					letter-spacing: 0.07em;
 /*					text-transform: uppercase;*/
 				}
 
